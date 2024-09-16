@@ -1,0 +1,8 @@
+# import matplotlib
+# print(matplotlib.get_backend())
+# matplotlib.use('qtagg')
+import matplotlib.pyplot as plt
+
+plt.ion()  # Turn on interactive mode
+plt.plot([1, 2, 3, 4])
+plt.show()
